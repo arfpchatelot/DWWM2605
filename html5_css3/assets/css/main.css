@@ -4,7 +4,7 @@
 --titlecolor:#ccffcc; 
 --linkcolor:#ccccff;
 --fonttxt: "verdana";
---fonttitle:"impact";
+--fonttitle:"tahoma";
 }
 body{
     margin: 0px;
@@ -42,4 +42,37 @@ height: auto;
 margin: 0px 20px 20px 0px ;
 border: 1px solid wheat;
 
+}
+/* li{ display: inline; */
+
+li {display: inline-block;
+width: 200px;
+margin:0px 5px;
+padding: 5px;
+border: 1px solid var(--titlecolor);}
+
+
+
+a:link {
+    color:var(--titlecolor);
+}
+a:visited {
+    color: var(--titlecolor);
+}
+
+#airbus img {
+    width: 230px;
+    height: 150px;
+    margin:5px;
+    border-radius: 12px;
+}
+#airbus {
+  width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
 }
