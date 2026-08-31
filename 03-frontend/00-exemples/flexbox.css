@@ -1,0 +1,46 @@
+h1 { 
+    background-color: chartreuse;
+    margin-bottom: 10px;
+}
+
+#f1 {
+    position: relative;
+    background-color: #FFCC00AA;
+    padding: 0px;
+    padding-top: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;        /* Mise à la ligne autorisée ou pas */
+    flex-direction: row;    /* Définit la direction du flux principal (main asix) */
+    flex-flow: row wrap;    /* combinaison des 2 précédentes */
+   /* row-gap: 40px;
+    column-gap: 20px;*/
+    gap: 5px;
+    /*align-items: start;*/
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
+    height: 1000px;
+}
+
+h2 {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+article {
+    background-color: blue;
+    border: 1px solid green;
+    color: white;
+    width: 190px;
+}
+
+.a1 {
+    
+}
+
+.a2 {
+   
+}
